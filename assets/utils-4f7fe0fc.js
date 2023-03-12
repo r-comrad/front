@@ -1,0 +1,1 @@
+function a(e,s){if(localStorage.getItem("messages")!=null){let t=JSON.parse(localStorage.getItem("messages"));t.push({data:e,type:s}),localStorage.setItem("messages",JSON.stringify(t))}else localStorage.setItem("messages",JSON.stringify([{data:e,type:s}]))}export{a as C};
